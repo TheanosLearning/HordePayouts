@@ -1,2 +1,3 @@
-# HordePayouts
-Gives exact XP &amp; Credits payouts for playing Horde 3.0 on any difficulty.
+# Horde 3.0 Payouts
+
+![demo](http://i.imgur.com/EOrq4Ys.png)
