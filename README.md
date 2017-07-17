@@ -10,4 +10,6 @@
 
 ![demo](http://i.imgur.com/EOrq4Ys.png)
 
-## Yes, the payouts are calcuted **exactly**
+The payouts are calcuted **exactly** ([WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG)). Interested in the maths? Take a peek:
+
+![maths](http://i.imgur.com/PCb7PuC.png)
