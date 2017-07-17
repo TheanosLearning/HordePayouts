@@ -9,3 +9,5 @@
 5. Hit calculate
 
 ![demo](http://i.imgur.com/EOrq4Ys.png)
+
+## Yes, the payouts are calcuted **exactly**
