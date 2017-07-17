@@ -1,5 +1,7 @@
 # Horde 3.0 Payouts
 
+#### A [JSFiddle](https://jsfiddle.net) for interactively calculating XP & Credits earned while playing Horde.
+
 1. Select your difficulty
 2. Select your starting wave from the dropdown
 3. Select any waves that you failed 
