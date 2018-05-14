@@ -1,6 +1,6 @@
 # Horde 3.0 Payouts
 
-#### [Horde Payouts](https://jsfiddle.net/TensorFlow/bwL8h251/) is a JSFiddle for interactively calculating XP & Credits earned while playing Horde on Gears of War 4.
+#### [Horde Payouts](https://jsfiddle.net/TensorFlow/bwL8h251/32/show/) is a JSFiddle for interactively calculating XP & Credits earned while playing Horde on Gears of War 4.
 
 1. Select your difficulty
 2. Select your starting wave from the dropdown
