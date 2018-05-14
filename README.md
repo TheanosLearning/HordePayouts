@@ -4,7 +4,7 @@
 
 1. Select your difficulty
 2. Select your starting wave from the dropdown
-3. Select any waves that you failed 
+3. Select any waves that you failed (*use ctrl/cmd + click to multi-select or unselect*)
 4. Select the highest completed wave
 5. Hit calculate
 
