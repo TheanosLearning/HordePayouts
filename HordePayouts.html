@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./HordePayouts.css">
+</head>
+
+<body>
+<h1>Gears of War 4 Horde XP/Credit Calculator</h1>
+
+<div class="grid-container">
+
+<div>
+  <h3>Difficulty</h3>
+</div>
+
+<div>
+  <h3>Starting Wave</h3>
+</div>
+
+<div>
+  <h3>Failed Waves</h3>
+</div>
+
+<div>
+  <h3>Highest Wave Completed</h3>
+</div>
+
+<div>
+  <select id="difficulty">
+    <option value="Casual">Casual</option>
+    <option value="Normal">Normal</option>
+    <option value="Hardcore">Hardcore</option>
+    <option value="Insane" selected>Insane</option>
+    <option value="Inconceivable">Inconceivable</option>
+  </select>
+</div>
+
+<div>
+  <select id="startingWave"></select>
+</div>
+
+<div align="center">
+    <ol id="failedWaves"></ol>
+</div>
+
+<div>
+  <select id="highestWaveCompleted"></select>
+</div>
+
+</div>
+
+<hr>
+<table id="payout-table" style="width: 75%" class="table table-bordered">
+  <tr>
+    <th>
+      <div>
+        <button id="calculate" class="btn btn-primary">Calculate</button>
+      </div>
+    </th>
+    <th>XP</th>
+    <th>Credits</th>
+  </tr>
+  <tr>
+    <th scope="row">Wave Completion</th>
+    <td id="wcXP"></td>
+    <td id="wcCR"></td>
+  </tr>
+  <tr>
+    <th scope="row">Consecutive Wave Bonus</th>
+    <td id="cwbXP"></td>
+    <td id="cwbCR"></td>
+  </tr>
+  <tr>
+    <th scope="row">Total</th>
+    <td id="totalXP"></td>
+    <td id="totalCR"></td>
+  </tr>
+</table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./HordePayouts.js"></script>
+</body>
+</html>
